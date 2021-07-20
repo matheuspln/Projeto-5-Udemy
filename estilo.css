@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", "Arial", sans-serif;;
+}
+
+body {
+	background: url(imagens/bg.png);
+	padding: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Formatação do Container */
+
+#container {
+	width: 100%;
+	max-width: 1200px;
+	min-width: 1050px;
+	margin: 0 auto;
+	background: #fff url(imagens/bg-container.png) center repeat-y;
+}
+
+/* Formatação do Topo */
+
+#logo h1 {
+	margin: -1200px;
+}
+
+#logo {
+	padding: 10px;
+}
+
+#topo {
+	height: 250px;
+	position: relative;
+	background: url(imagens/topo-imagem-principal.png) no-repeat;
+
+}
+
+#area-menu {
+	height: 100%;
+	width: 35%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: url(imagens/topo-imagem-lateral.png);
+	padding-left: 80px;
+}
+
+#locais {
+	margin: 10px;
+	border-bottom: 1px solid #aa9f52;
+	border-top: 1px solid #aa9f52;
+}
+
+#lista-locais {
+	float: left;
+	color: #aa9f52;
+	font-size: 0.8em;
+	line-height: 0.8em;
+	padding: 0.8em 0;
+}
+
+#reserva {
+	float: right;
+	background-color: #a8a052;
+	line-height: 0.8em;
+	padding: 10px;
+}
+
+#reserva a {
+	color: #ffffff;
+}
+
+#menu ul {
+	margin-left: 10px;
+	float: left;
+}
+
+#menu ul li {
+	padding: 5px;
+}
+
+#menu ul li:hover {
+	background-color: #ffffcd;
+}
+
+#menu ul li a {
+	color: #7d783d;
+	line-height: 1em;
+	font-size: 0.9em;
+}
+
+#menu img {
+	float: right;
+	width: 226px;
+	height: 164px;
+	margin-top: 10px;
+}
+
+/* Formatação do Conteúdo Esquerdo */
+
+#esquerdo {
+	width: 49.8%;
+	float: left;
+	background: url(imagens/bg-area-principal.png) repeat-x;
+}
+
+#esquerdo h3 {
+	font-size: 1.1em;
+	padding: 20px 0 0 20px;
+	color: #8d8d70;
+}
+
+#esquerdo p {
+	font-size: 0.9em;
+	padding: 10px 20px 20px 20px;
+}
+
+/* Formatação do Conteúdo Direito */
+
+#direito {
+	width: 50%;
+	float: right;
+	background: url(imagens/bg-area-lateral.png) repeat-x;
+}
+
+#direito ul {
+	padding: 20px 20px 0px 20px;
+}
+
+#direito ul li {
+	border-bottom: 1px solid #cecece;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#direito ul li:hover {
+	background-color: #fffcdc;
+}
+
+#direito ul li a h4 {
+	color: #5e5930;
+	margin-bottom: 5px;
+}
+
+#direito ul li a p {
+	font-size: 0.8em;
+	color: #000;
+}
+
+#direito ul li a img {
+	width: 130px;
+	float: left;
+	margin-right: 10px;
+}
+
+/* Formatação do Rodapé */
+
+#rodape {
+	clear: both;
+	background: #efecc4 url(imagens/bg-rodape.png) repeat-x;
+	font-size: 0.8em;
+	padding: 20px;
+}
